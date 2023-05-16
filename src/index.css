@@ -1,0 +1,185 @@
+@media screen and (max-width: 1400px) {
+    .homeImage{
+        max-width: 600px;
+        transform: translateY(-6%);
+    }
+
+    .homeProfile{
+        height: auto;
+    }
+
+    .homeData{
+        transform: scale(0.9);
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .container{
+        max-width: 960px;
+    }
+
+    .home{
+        padding-top: 140px;
+    }
+
+    .homeImage{
+        max-width: 400px;
+        position: relative;
+        transform: initial;
+        right: initial;
+        margin-inline: auto;
+        margin-top: 100px;
+    }
+
+    .homeTitle,
+    .homeSubtitle,
+    .homeJob,
+    .homeText{
+        text-align: center;
+    }
+
+    .homeText{
+        margin-inline: auto;
+    }
+
+    .homeSocials,
+    .homeBtns{
+        justify-content: center;
+    }
+
+    .portfolioContainer{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footerContainer:nth-child(2){
+        justify-self: start;
+    }
+
+    .homeData{
+        transform: scale(0.7);
+    }
+}
+
+@media screen and (max-width: 992px) {
+    
+    :root{
+        --h2-font-size: 24px;
+        --h3-font-size: 23px;
+        --h4-font-size: 21px;
+        --h5-font-size: 20px;
+        --largest-font-size: 19px;
+        --larger-font-size: 18px;
+        --large-font-size: 16px;
+        --normal-font-size: 15px;
+        --small-font-size: 14px;
+        --smaller-font-size: 13px;
+        --tiny-font-size: 12px;
+    }
+    .container{
+        max-width: 740px;
+    }
+
+    .portfolioContainer{
+        gap: 30px;
+    }
+
+    .portfolioImg{
+        height: 200px;
+    }
+
+    .contactFormGroup{
+        grid-template-columns: 1fr;
+        row-gap: 0;
+    }
+
+    .contactCardIcon{
+        font-size: var(--large-font-size);
+        width: 42px;
+        height: 42px;
+    }
+
+    .contactCardIcon::after{
+        width: 32px;
+    }
+
+    .contactCard{
+        padding-left: 80px;
+    }
+
+    .footerContainer{
+        grid-template-columns: 1fr;
+        justify-items: center;
+        row-gap: 12px;
+    }
+
+    .footerCopy:nth-child(2),
+    .footerCopy:last-child{
+        justify-self: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        max-width: 540px;
+    }
+
+    .homeImage{
+        max-width: 350px;
+    }
+
+    .homeData{
+        transform: scale(0.6);
+    }
+
+    .homeData-one{
+        left: -10%;
+    }
+
+    .homeData-two{
+        right: -9%;
+    }
+
+    .portfolioContainer,
+    .contactContainer{
+        grid-template-columns: 1fr;
+    }
+
+    .portfolioList{
+        column-gap: 24px
+    }
+
+    .portfolioListItem::before{
+        bottom: -8px;
+    }
+
+    .contactCard{
+        display: none;
+    }
+
+    .home{
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    
+    .homeImage{
+        margin-top: 50px;
+    }
+}
+
+
+@media screen and (max-width: 350px){
+    .homeData-one, .homeData-two{
+        transform: scale(0.5);
+    }
+
+    .homeData-one{
+        left: -20%;
+    }
+
+    .homeData-two{
+        bottom: 5%;
+        right: -15%;
+    }
+}

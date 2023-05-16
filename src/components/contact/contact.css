@@ -1,0 +1,84 @@
+.contact{
+    background-color: #b10ac7;
+}
+
+.contactContainer{
+    grid-template-columns: 5fr 7fr;
+}
+
+.contactCard{
+    padding-left: 100px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.contactCardIcon,
+.contactFormInput{
+    border: none;
+    background-color: var(--container-color);
+}
+
+.contactCardIcon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    font-size: var(--larger-font-size);
+    display: grid;
+    place-items: center;
+}
+
+.contactCardTitle{
+    font-size: var(--h2-font-size);
+    font-family: var(--second-font);
+    padding-block: 4px;
+}
+
+.contactFormGroup{
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 30px;
+}
+
+.contactFormDiv{
+    display: grid;
+    row-gap: 10px;
+    margin-bottom: 30px;
+}
+
+.contactFormTag{
+    margin-left: 30px;
+    font-size: var(--smaller-font-size);
+    font-weight: 700;
+}
+
+.contactFormTag b{
+    color: var(--primary-color);
+}
+
+.contactFormInput{
+    color: var(--title-color);
+    height: 60px;
+    border-radius: 30px;
+    padding-inline: 30px;
+}
+
+.contactFormArea .contactFormInput{
+    height: 140px;
+    padding-block: 20px;
+    resize: none;
+    font-family: var(--first-font);
+    font-size: var(--small-font-size);
+}
+
+.contactSubmit{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 15px;
+}
+
+

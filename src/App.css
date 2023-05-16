@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Great+Vibes&family=Jost:wght@400;500;700&display=swap');
+:root{
+  scroll-behavior: smooth;
+
+  --primary-color:hsl(39, 100%, 50%);
+  --title-color:hsl(0, 0%, 100%);
+  --text-color: hsl(0, 0%, 100%);
+  --bg-color: hsl(216, 18%, 16%);
+  --bg-color-alt: hsl(213, 10%, 21%);
+  --container-color: hsl(217, 18%, 14%);
+  --border-color:hsl(210, 2%, 65%);
+  --first-gradient: linear-gradient(0deg, rgba(141,0,188,1) 0%, rgba(10,0,176,1) 100%);
+
+  --body-font: 'Jost', sans-serif;
+  --second-font: 'Dancing Script', cursive;
+
+  --big-font-size: clamp(2.25rem, 1.125rem + 5.1429vw, 5.625rem);
+  --h1-font-size: clamp(1.75rem, 1.4167rem + 1.5238vw, 2.75rem);
+  --h2-font-size: 30px;
+  --h3-font-size: 28px;
+  --h4-font-size: 24px;
+  --h5-font-size: 22px;
+  --largest-font-size: 21px;
+  --larger-font-size: 20px;
+  --large-font-size: 18px;
+  --normal-font-size: 16px;
+  --small-font-size: 15px;
+  --smaller-font-size: 14px;
+  --tiny-font-size: 13px;
+
+  --shadow: 5px 5px rgb(255 255 255 /10%);
+
+  --transition: cubic-bezier(0.3, 0, 0.3, 1);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button,
+input,
+body{
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+}
+
+body{
+  color: var(--text-color);
+}
+
+h1,
+h2,
+h3{
+  color: var(--title-color);
+  font-weight: 700;
+}
+
+ul{
+  list-style: none;
+}
+
+p{
+  line-height: 1.7;
+}
+
+a{
+  text-decoration: none;
+}
+
+input,
+textarea,
+button{
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+img{
+  max-width: 100%;
+}
+
+.container{
+  max-width: 1300px;
+  margin-inline: auto;
+  padding-inline: 12px;
+}
+
+.grid{
+  display: grid;
+  gap: 24px;
+}
+
+.text-cs{
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.btn,
+.heroLink{
+  color: var(--title-color);
+  font-size: var(--tiny-font-size);
+  font-weight: 700;
+  height: 56px;
+  display: grid;
+  place-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.btn{
+  border: 2px solid var(--border-color);
+  padding-inline: 40px;
+  border-radius: 56px;
+  box-shadow: var(--shadow);
+}
+
+.btn::before{
+  content: '';
+  position: absolute;
+  inset: 2px;
+  background-color: var(--primary-color);
+  border-radius: inherit;
+  transform: scale(0.3);
+  opacity: 0;
+  transition: all 0.5s var(--transition);
+  z-index: -1;
+}
+
+.btn:hover::before{
+  transform: scale(1);
+  opacity: 1;
+}
+
+.shape{
+  position: absolute;
+  filter: invert(1);
+  opacity: 0.6;
+}
+
+.section{
+  position: relative;
+}
+
+.sectionTitle,
+.sectionSubtitle{
+  text-align: center;
+}
+
+.sectionTitle{
+  font-size: var(--h1-font-size);
+}
+
+.sectionSubtitle{
+  color: var(--primary-color);
+  font-size: var(--smaller-font-size);
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+
+.sectionSubtitle span{
+  font-family: var(--second-font);
+  color: var(--title-color);
+  font-size: var(--h3-font-size);
+  text-transform: capitalize;
+  margin-left: 10px;
+}
+
+.card{
+  position: relative;
+  background: rgba(100, 100, 100, 0.1);
+  overflow: hidden;
+  text-align: left;
+}
+
+.cardOne{
+  padding: 30px 35px;
+  border-radius: 18px;
+}
+
+.cardTwo{
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.link{
+  display: inline-flex;
+  align-items: center;
+  color: var(--title-color);
+  font-weight: 700;
+}
+
+.linkIcon{
+  color: var(--primary-color);
+  margin-left: 20px;
+  transition: all 0.3s var(--transition);
+}
+
+.link:hover .linkIcon{
+  margin-left: 15px;
+}
+
+.sectionDeco{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2px;
+  height: 70%;
+  background-color: var(--border-color);
+  z-index: 1;
+}
+
+.decoRight{
+  right: 3%;
+}
+
+.decoLeft{
+  left: 3%;
+}
+
+.sectionDeco::before,
+.sectionDeco::after{
+  content: '';
+  position: absolute;
+  left: 50%;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: var(--bg-color);
+  border: 2px solid var(--border-color);
+  box-shadow: var(--shadow);
+}
+
+.sectionDeco::before{
+  top: 0;
+  transform: translate(-50%, -100%);
+}
+
+.sectionDeco::after{
+  bottom: 0;
+  transform: translate(-50%, 100%);
+}
+
+.spacer {
+  aspect-ratio: 960/300;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
