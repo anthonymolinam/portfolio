@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 67.97 83.06">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Degradado_sin_nombre_9-4);
+      }
+
+      .cls-2 {
+        isolation: isolate;
+      }
+
+      .cls-3 {
+        fill: url(#Degradado_sin_nombre_9-2);
+        stroke: url(#Degradado_sin_nombre_6-2);
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.05px;
+      }
+
+      .cls-4 {
+        fill: url(#Degradado_sin_nombre_186);
+      }
+
+      .cls-4, .cls-5 {
+        mix-blend-mode: color-dodge;
+      }
+
+      .cls-6 {
+        fill: url(#Degradado_sin_nombre_9-5);
+      }
+
+      .cls-7 {
+        fill: url(#Degradado_sin_nombre_9-3);
+      }
+
+      .cls-8 {
+        fill: url(#Degradado_sin_nombre_9-6);
+      }
+
+      .cls-9 {
+        fill: url(#Degradado_sin_nombre_9);
+        stroke: url(#Degradado_sin_nombre_6);
+        stroke-miterlimit: 10;
+        stroke-width: 1.16px;
+      }
+
+      .cls-5 {
+        fill: url(#Degradado_sin_nombre_186-2);
+      }
+    </style>
+    <linearGradient id="Degradado_sin_nombre_9" data-name="Degradado sin nombre 9" x1="34.83" y1="4.18" x2="34.83" y2="103.08" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity=".35"/>
+      <stop offset=".21" stop-color="#fff" stop-opacity=".34"/>
+      <stop offset=".4" stop-color="#fff" stop-opacity=".29"/>
+      <stop offset=".59" stop-color="#fff" stop-opacity=".22"/>
+      <stop offset=".77" stop-color="#fff" stop-opacity=".12"/>
+      <stop offset=".93" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="Degradado_sin_nombre_6" data-name="Degradado sin nombre 6" x1="55.7" y1="5.38" x2="9.43" y2="85.52" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity=".45"/>
+      <stop offset=".02" stop-color="#fff" stop-opacity=".42"/>
+      <stop offset=".09" stop-color="#fff" stop-opacity=".31"/>
+      <stop offset=".17" stop-color="#fff" stop-opacity=".23"/>
+      <stop offset=".26" stop-color="#fff" stop-opacity=".16"/>
+      <stop offset=".38" stop-color="#fff" stop-opacity=".11"/>
+      <stop offset=".54" stop-color="#fff" stop-opacity=".09"/>
+      <stop offset="1" stop-color="#fff" stop-opacity=".08"/>
+    </linearGradient>
+    <linearGradient id="Degradado_sin_nombre_9-2" data-name="Degradado sin nombre 9" x1="48.06" y1="10.86" x2="65.84" y2="10.86" xlink:href="#Degradado_sin_nombre_9"/>
+    <linearGradient id="Degradado_sin_nombre_6-2" data-name="Degradado sin nombre 6" x1="47.53" y1="10.86" x2="66.37" y2="10.86" xlink:href="#Degradado_sin_nombre_6"/>
+    <linearGradient id="Degradado_sin_nombre_9-3" data-name="Degradado sin nombre 9" x1="24.22" y1="9.94" x2="46.72" y2="90.11" xlink:href="#Degradado_sin_nombre_9"/>
+    <linearGradient id="Degradado_sin_nombre_9-4" data-name="Degradado sin nombre 9" x1="26.81" y1="9.21" x2="49.3" y2="89.38" xlink:href="#Degradado_sin_nombre_9"/>
+    <linearGradient id="Degradado_sin_nombre_9-5" data-name="Degradado sin nombre 9" x1="23.55" y1="10.13" x2="46.05" y2="90.3" xlink:href="#Degradado_sin_nombre_9"/>
+    <linearGradient id="Degradado_sin_nombre_9-6" data-name="Degradado sin nombre 9" x1="20.3" y1="11.04" x2="42.8" y2="91.21" xlink:href="#Degradado_sin_nombre_9"/>
+    <radialGradient id="Degradado_sin_nombre_186" data-name="Degradado sin nombre 186" cx="23.49" cy="1341.45" fx="23.49" fy="1341.45" r="11.88" gradientTransform="translate(52.28 -191.73) rotate(179.03) scale(1.59 -.14)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b0b0af"/>
+      <stop offset=".14" stop-color="#989897" stop-opacity=".82"/>
+      <stop offset=".44" stop-color="#6a6a69" stop-opacity=".47"/>
+      <stop offset=".69" stop-color="#494948" stop-opacity=".21"/>
+      <stop offset=".89" stop-color="#343433" stop-opacity=".06"/>
+      <stop offset="1" stop-color="#2d2d2c" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="Degradado_sin_nombre_186-2" data-name="Degradado sin nombre 186" cx="4.77" cy="1899.4" fx="4.77" fy="1899.4" r="11.88" xlink:href="#Degradado_sin_nombre_186"/>
+  </defs>
+  <g class="cls-2">
+    <g id="OBJECTS">
+      <g>
+        <g>
+          <g>
+            <polygon class="cls-9" points="48.06 1.69 3.81 1.69 3.81 81.37 65.84 81.37 65.84 20.03 48.06 1.69"/>
+            <polygon class="cls-3" points="48.06 1.69 48.06 20.03 65.84 20.03 48.06 1.69"/>
+          </g>
+          <g>
+            <rect class="cls-7" x="15.74" y="20.03" width="24.19" height="5.58"/>
+            <rect class="cls-1" x="15.74" y="32.52" width="36.79" height="5.58"/>
+            <rect class="cls-6" x="15.74" y="45.02" width="36.79" height="5.58"/>
+            <rect class="cls-8" x="15.74" y="57.52" width="36.79" height="5.58"/>
+          </g>
+        </g>
+        <g>
+          <path class="cls-4" d="M0,2.01c.02,.92,8.28,1.52,18.45,1.35s18.41-1.06,18.4-1.98c-.02-.92-8.28-1.52-18.45-1.35C8.22,.2-.02,1.09,0,2.01Z"/>
+          <path class="cls-5" d="M31.12,81.68c.02,.92,8.28,1.52,18.45,1.35s18.41-1.06,18.4-1.98c-.02-.92-8.28-1.52-18.45-1.35-10.18,.17-18.41,1.06-18.4,1.98Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
